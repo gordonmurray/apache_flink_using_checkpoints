@@ -30,8 +30,6 @@ services:
   taskmanager:
     image: flink:1.17.0
     restart: always
-    ports:
-      - "9091"  # Expose Prometheus metrics port
     depends_on:
       - jobmanager
     command: taskmanager
