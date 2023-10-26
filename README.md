@@ -2,6 +2,8 @@
 
 I tried out [Checkpointing](https://nightlies.apache.org/flink/flink-docs-master/docs/dev/datastream/fault-tolerance/checkpointing/) in some Flink Jobs to see if it would help with Job restarts
 
+Some details in a blog post here https://gordonmurray.com/aws/2023/10/25/using-checkpoints-in-apache-flink-jobs.html
+
 ```docker-compose.yml
 
 version: '3.1'
